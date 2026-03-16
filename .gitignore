@@ -1,5 +1,6 @@
 # ==========================
 # RHC_Protocol_Core - .gitignore
+# Proyecto base original que sirvió de referencia para OWASP
 # ==========================
 
 # Archivos temporales del sistema
@@ -34,3 +35,12 @@ cache/
 *.conf
 *.bak
 logs/
+
+# Otros Archivos
+/Gemfile
+/Gemfile.lock
+/favicon.ico
+_site/
+
+# Archivos personales que NO se suben
+.Notas_Generales.txt
