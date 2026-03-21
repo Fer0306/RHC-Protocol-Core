@@ -42,7 +42,7 @@
  */
 
 	// Incluir protección para evitar ejecución directa o acceso no autorizado.
-	require_once __DIR__ . './endpoint_protector.php'; 
+	require_once realpath(__DIR__ . '/endpoint_protector.php');
 
 	/**
 	 * ============================================================================
@@ -109,6 +109,7 @@
 		'HTTP_ACCEPT_LANGUAGE', 'HTTP_SEC_CH_UA',
 		'HTTP_SEC_CH_UA_MOBILE', 'HTTP_SEC_FETCH_SITE',
 		'HTTP_SEC_FETCH_MODE', 'HTTP_SEC_FETCH_DEST',
+		'HTTP_UPGRADE_INSECURE_REQUESTS', 'HTTP_SEC_FETCH_USER',
 		'HTTP_SEC_CH_UA_PLATFORM'
 	];
 
