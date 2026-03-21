@@ -222,6 +222,132 @@ Este proyecto utiliza un esquema de licencias dual:
 
 ---
 
+## 🧠 Explicación del Modelo de Licenciamiento
+
+RHC Protocol Core utiliza un modelo de licenciamiento dual diseñado para equilibrar la **adopción abierta**, la **atribución del autor** y las **restricciones de seguridad del mundo real**.
+
+### 🔓 Implementación Abierta (Código)
+
+El código y las Pruebas de Concepto (PoC) se publican bajo la **Licencia Apache 2.0**, lo que permite:
+
+- Uso libre en entornos comerciales y no comerciales  
+- Modificación interna y personalización  
+- Integración en sistemas privados o sensibles sin necesidad de divulgación  
+
+Esto permite que organizaciones como instituciones financieras, entidades gubernamentales, sistemas de salud o empresariales, adopten RHC **sin exponer sus arquitecturas internas ni sus configuraciones de seguridad**.
+
+---
+
+### 📘 Conocimiento Abierto (Documentación)
+
+Toda la documentación, metodología y materiales conceptuales se publican bajo **Creative Commons BY 4.0**, lo que requiere:
+
+- Atribución adecuada al autor original  
+- Reconocimiento del origen del concepto RHC  
+
+Esto garantiza que, aunque las implementaciones puedan variar y mantenerse privadas,  
+el **origen intelectual del protocolo permanezca rastreable y preservado**.
+
+---
+
+### 🛡️ Filosofía de Diseño
+
+Este modelo de licenciamiento refleja un principio central de RHC:
+
+> Las implementaciones de seguridad deben permanecer adaptables y confidenciales,  
+> mientras que el conocimiento y la innovación deben permanecer abiertos y compartidos.
+
+Cada organización puede:
+
+- Implementar RHC de manera diferente  
+- Definir sus propias estructuras de encabezados
+- Diseñar sus propios modelos de entropía
+- Evolucionar el protocolo internamente  
+
+Sin requerir que el autor acceda o incluso conozca sus sistemas internos.
+
+---
+
+### 🌍 Por qué esto es importante
+
+Este enfoque permite:
+
+- Adopción segura en **entornos de alta seguridad y/o sensibilidad**  
+- Protección de la **confidencialidad institucional**  
+- Escalabilidad global del concepto RHC  
+- **Atribución clara y permanente del autor**  
+
+---
+
+> “RHC se adapta a cada sistema, pero su origen permanece igual.”  
+> — Fernando Flores Alvarado
+
+---
+
+## 🏢 Para Empresas / Instituciones
+
+RHC Protocol Core está diseñado para ser adoptado en **entornos del mundo real** donde la seguridad, la confidencialidad y la escalabilidad son críticas.
+
+### 🔐 Sin Necesidad de Exposición
+
+Las organizaciones pueden implementar RHC sin necesidad de:
+
+- Compartir su arquitectura interna  
+- Exponer configuraciones de seguridad  
+- Proporcionar acceso a sistemas propietarios  
+
+RHC está diseñado para ser **auto-integrado**, lo que significa que cada institución lo adapta internamente según su propia infraestructura.
+
+---
+
+### ⚙️ Implementación Flexible
+
+Cada organización puede:
+
+- Definir sus propias estructuras de encabezado  
+- Personalizar estrategias de entropía  
+- Seleccionar el nivel de implementación adecuado (Básico → Adaptativo)  
+- Evolucionar el modelo internamente con el tiempo  
+
+Esto asegura compatibilidad con:
+
+- Sistemas financieros  
+- Plataformas gubernamentales  
+- Infraestructuras de salud  
+- Aplicaciones empresariales  
+
+---
+
+### 🛡️ Seguridad por Diseño
+
+RHC introduce protección a nivel de **comunicación**, lo que lo hace:
+
+- Resistente a ataques basados en patrones  
+- No replicable entre entornos distintos
+- Consciente del contexto y adaptable **(Adaptativo al contexto de ejecución)**
+
+Incluso si dos instituciones implementan RHC, su comportamiento puede ser completamente diferente.
+
+---
+
+### 🤝 Atribución sin Riesgo
+
+El modelo de licenciamiento garantiza:
+
+- Reconocimiento del autor original  
+- Libertad de implementación interna  
+- Sin obligación de divulgar o exponer adaptaciones sensibles  
+
+Esto permite a las organizaciones adoptar RHC con confianza,  
+preservando tanto la **integridad de la seguridad** como la **atribución intelectual**.
+
+---
+
+> RHC no es una implementación fija —  
+> es un modelo de seguridad que evoluciona dentro de cada sistema.
+
+---
+
 ### 📘 Documentación Técnica
 
 - [📗 Methodology Overview](./docs/methodology.md)
