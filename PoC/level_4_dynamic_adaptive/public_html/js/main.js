@@ -67,9 +67,9 @@
 	// URL base del API
 	const hostname = window.location.hostname;
 	const apiURL = ["localhost", "127.0.0.1"].includes(hostname)
-		? "http://localhost/RHC-Protocol-Core/PoC/level_4_dynamic_adaptive/api/"
+		? "https://localhost/RHC-Protocol-Core/PoC/level_4_dynamic_adaptive/api/"
 		: hostname === "www.rhc-protocol-core.test"
-			? "https://api.rhc-protocol-core.test/"
+			? "https://www.rhc-protocol-core.test/PoC/level_4_dynamic_adaptive/api/"
 			: "";
 
 	console.log("Host:", hostname);

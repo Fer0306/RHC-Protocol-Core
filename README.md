@@ -22,6 +22,46 @@ con un enfoque práctico aplicable a arquitecturas modernas **stateless**, **JWT
 
 ---
 
+## 🌱 Origen del proyecto
+
+Este proyecto nació en mi lengua madre, el español.
+
+Como autor, desarrollador e investigador, la concepción original,
+la documentación y la evolución del protocolo RHC fueron pensadas
+y construidas en español como lenguaje base.
+
+Este origen no es casual.
+
+Es parte de una identidad.
+Y de un propósito.
+
+Desde una convicción personal, y como instrumento guiado hacia la creación
+y el conocimiento, este proyecto surge como una forma de aportar,
+compartir y construir valor desde su origen hacia el mundo,
+bajo una filosofía de responsabilidad en la forma de compartir conocimiento.
+
+---
+
+## 🧠 Fundamento conceptual
+
+RHC se basa en un **cambio de paradigma** en la forma en que se protegen los
+canales de comunicación en sistemas modernos, distribuidos y automatizados.
+
+En lugar de asumir que la seguridad se resuelve únicamente en los extremos
+(identidades, tokens o endpoints), RHC introduce el concepto de **integridad
+dinámica del canal de comunicación**, enfocándose en el comportamiento del flujo
+a lo largo del tiempo.
+
+Este enfoque aborda una superficie de ataque emergente en arquitecturas
+clásicas, modernas y asistidas por IA, donde la validación de identidad no es
+suficiente para garantizar la coherencia, continuidad y legitimidad de una
+comunicación.
+
+📄 **Lectura recomendada:**
+- [Cambio de paradigma — Seguridad de las comunicaciones en sistemas modernos](./docs/paradigm-shift.md)
+
+---
+
 ## 🎯 Objetivos
 
 - Definir la **arquitectura núcleo** del Protocolo RHC (aleatoriedad, autenticación y entropía controlada).  
@@ -82,11 +122,22 @@ Este repositorio, en cambio, documenta el **núcleo independiente y conceptual**
 RHC_Protocol_Core/
 │
 ├── 🛠️ assets/                       → Recursos para el repositorio.
-│   └── images/                       → Recursos visuales (diagramas, logotipos, esquemas).
+│   ├── images/                       → Recursos visuales (diagramas, logotipos, esquemas).
+│   │   ├── avance-rhc-channel-entropy-metrics-viewer.png
+│   │   └── README.md                 → Descripción de los recursos de images.
+│   └── README.md                     → Descripción de los recursos.
 │
-├── 📘 docs/                          → Documentación técnica y referencias.
+├── 📘 docs/                          → Documentación técnica, conceptual y referencias.
+│   └── conceptual/                   → Documentación conceptual profunda.
+│   │   └── marco_conceptual_rhc.md
+│   │
 │   ├── methodology.md                → Fundamentos físico–matemáticos del protocolo.
-│   ├── license_alignment.md          → Compatibilidad de licencias (Apache 2.0 + CC BY 4.0).
+│   ├── overview.md                   → Vista general del protocolo.
+│   ├── architecture.md               → Arquitectura del sistema RHC.
+│   ├── paradigm-shift.md             → Cambio de paradigma en seguridad.
+│   ├── installation.md               → Guía de instalación.
+│   ├── builder.md                    → Construcción e implementación del protocolo.
+│   ├── breaker.md                    → Análisis de ruptura / testing de seguridad.
 │   ├── references.md                 → Fuentes teóricas y artículos citados.
 │   └── rhc-ns-01_naming_standard.md  → Estándar de nombres y convenciones internas del protocolo RHC (RHC-NS-01).
 │
@@ -108,7 +159,6 @@ RHC_Protocol_Core/
 │
 ├── 🧭 roadmap/                       → Plan de desarrollo y registro histórico.
 │   ├── roadmap_2025.md               → Objetivos y metas previstas para 2025.
-│   ├── changelog_EN.md               → Registro de cambios en inglés.
 │   └── changelog.md                  → Registro de cambios en español.
 │
 ├── 📄 NOTICE                         → Atribución de autoría y origen del proyecto.
@@ -117,6 +167,7 @@ RHC_Protocol_Core/
 ├── ⚖️ LICENSE.md                     → Formato Markdown para GitHub.
 ├── 🧾 LICENSE_CC                     → Creative Commons BY 4.0 (documentación).
 ├── 🧾 LICENSE_CC.md                  → Versión Markdown para lectura en GitHub.
+├── LICENSE_ALIGNMENT.md          → Compatibilidad de licencias (Apache 2.0 + CC BY 4.0).
 ├── 🧩 VERSION                        → Datos técnicos de versión actual.
 ├── 🧩 VERSION.md                     → Versión Markdown con metadatos adicionales.
 └── ⚙️ .gitignore                     → Exclusión de archivos locales o temporales.
@@ -175,18 +226,18 @@ Este proyecto utiliza un esquema de licencias dual:
 
 - [📗 Methodology Overview](./docs/methodology.md)
 - [📘 Naming Standard (RHC-NS-01)](./docs/rhc-ns-01_naming_standard.md)
-- [📜 License Alignment](./docs/license_alignment.md)
+- [📜 License Alignment](./license_alignment.md)
 - [🔗 References](./docs/references.md)
 
 ---
 
 ### 📙 Documentación Conceptual
 
-- [🧠 Marco Conceptual del Protocolo RHC](./docs/conceptual/marco_conceptual_rhc.md)
+- [🧠 Cambio de paradigma del Protocolo RHC](./docs/paradigm-shift.md)
+- [🧭 Marco Conceptual del Protocolo RHC](./docs/conceptual/marco_conceptual_rhc.md)
 
 ---
 
 **© 2025 Fernando Flores Alvarado — Todos los derechos reservados bajo las licencias indicadas.**  
 
 ---
-
