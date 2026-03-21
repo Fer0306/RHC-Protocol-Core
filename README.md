@@ -226,7 +226,7 @@ Este proyecto utiliza un esquema de licencias dual:
 
 - [📗 Methodology Overview](./docs/methodology.md)
 - [📘 Naming Standard (RHC-NS-01)](./docs/rhc-ns-01_naming_standard.md)
-- [📜 License Alignment](./license_alignment.md)
+- [📜 License Alignment](./LICENSE_ALIGNMENT.md)
 - [🔗 References](./docs/references.md)
 
 ---
