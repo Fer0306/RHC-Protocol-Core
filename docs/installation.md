@@ -128,9 +128,19 @@ const apiURL = 'https://www.rhc-protocol-core.test/PoC/level_2_intermediate/api/
 
 ### Ejecución
 
+Abre en tu navegador:
+
 ```
 https://localhost/RHC-Protocol-Core/PoC/level_2_intermediate/public_html/
 ```
+
+o con dominio local:
+
+```
+https://www.rhc-protocol-core.test/PoC/level_2_intermediate/public_html/
+```
+
+Prueba usando los botones **Petición Fetch** o **Petición AJAX**.
 
 ---
 
@@ -152,9 +162,19 @@ const apiURL = 'https://www.rhc-protocol-core.test/PoC/level_3_advanced/api/';
 
 ### Ejecución
 
+Abre en tu navegador:
+
 ```
 https://localhost/RHC-Protocol-Core/PoC/level_3_advanced/public_html/
 ```
+
+o con dominio local:
+
+```
+https://www.rhc-protocol-core.test/PoC/level_3_advanced/public_html/
+```
+
+Prueba usando los botones **Petición Fetch** o **Petición AJAX**.
 
 ---
 
@@ -178,14 +198,33 @@ const apiURL = 'https://www.rhc-protocol-core.test/PoC/level_4_dynamic_adaptive/
 
 ### Ejecución — Interfaz principal
 
+Abre en tu navegador:
+
 ```
 https://localhost/RHC-Protocol-Core/PoC/level_4_dynamic_adaptive/public_html/
 ```
 
+o con dominio local:
+
+```
+https://www.rhc-protocol-core.test/PoC/level_4_dynamic_adaptive/public_html/
+```
+
+Prueba usando los botones **Petición Fetch** o **Petición AJAX**.
+
+
 ### Ejecución — Laboratorio de entropía (visor de análisis)
+
+Abre en tu navegador:
 
 ```
 https://localhost/RHC-Protocol-Core/PoC/level_4_dynamic_adaptive/public_html/entropy/
+```
+
+o con dominio local:
+
+```
+https://www.rhc-protocol-core.test/PoC/level_4_dynamic_adaptive/public_html/entropy/
 ```
 
 El visor muestra métricas en tiempo real del canal: distribución de headers, variabilidad de tokens, detección de anomalías y análisis de secuencias (MegaCadena).
